@@ -21,6 +21,8 @@ class Ejercicio5Activity : AppCompatActivity() {
             if (ivImagen.visibility == View.GONE) {
                 ivImagen.visibility = View.VISIBLE
                 btnMostrarImagen.text = "Ocultar Imagen"
+                // Cargar el GIF del gato bailando
+                ivImagen.setImageResource(R.drawable.cat_dancing)
             } else {
                 ivImagen.visibility = View.GONE
                 btnMostrarImagen.text = "Mostrar Imagen"

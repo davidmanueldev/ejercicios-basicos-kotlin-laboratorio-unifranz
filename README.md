@@ -34,12 +34,12 @@ btnMostrarToast.setOnClickListener {
 **Ubicación:** `Ejercicio2Activity.kt`
 
 **Descripción:** 
-Esta actividad tiene un botón y un TextView inicialmente vacío. Al presionar el botón, el TextView muestra el texto "¡Has presionado el botón!".
+Esta actividad tiene un botón y un TextView que inicialmente muestra "Este texto va a cambiar al apretar el botón". Al presionar el botón, el TextView cambia para mostrar "¡Has presionado el botón!".
 
 **Funcionamiento:**
-- La actividad inicia con un TextView vacío y un botón
+- La actividad inicia con un TextView que muestra un mensaje inicial y un botón
 - Al presionar el botón, se actualiza el contenido del TextView
-- El texto cambia a "¡Has presionado el botón!"
+- El texto cambia de "Este texto va a cambiar al apretar el botón" a "¡Has presionado el botón!"
 
 **Código clave:**
 ```kotlin
@@ -104,20 +104,24 @@ btnIncrementar.setOnClickListener {
 **Ubicación:** `Ejercicio5Activity.kt`
 
 **Descripción:** 
-Esta actividad tiene un botón y una imagen (ImageView) que inicialmente está oculta. Al presionar el botón, la imagen se muestra o se oculta alternativamente.
+Esta actividad tiene un botón y una imagen animada de un gato bailando (ImageView) que inicialmente está oculta. Al presionar el botón, la imagen se muestra con animación o se oculta alternativamente.
 
 **Funcionamiento:**
-- La imagen inicia con `visibility = View.GONE`
+- La imagen animada inicia con `visibility = View.GONE`
 - Al presionar el botón, se verifica el estado de visibilidad actual
 - Se alterna entre `View.VISIBLE` y `View.GONE`
 - El texto del botón también cambia entre "Mostrar Imagen" y "Ocultar Imagen"
+- Cuando se muestra, inicia la animación del gato bailando
 
+**Código clave:**
 **Código clave:**
 ```kotlin
 btnMostrarImagen.setOnClickListener {
     if (ivImagen.visibility == View.GONE) {
         ivImagen.visibility = View.VISIBLE
         btnMostrarImagen.text = "Ocultar Imagen"
+        // Cargar el GIF del gato bailando
+        ivImagen.setImageResource(R.drawable.cat_dancing)
     } else {
         ivImagen.visibility = View.GONE
         btnMostrarImagen.text = "Mostrar Imagen"

@@ -37,7 +37,7 @@
         android:id="@+id/ivImagen"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/cat_dancing"
         android:scaleType="centerInside"
         android:background="@color/purple_200"
         android:padding="16dp"
