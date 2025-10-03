@@ -1,5 +1,19 @@
 # Ejercicios Básicos de Android Studio con Kotlin
 
+## CAPTURAS DE PANTALLA
+
+![alt text](Screenshot_20251003-011907.jpg)
+![alt text](Screenshot_20251003-011913.jpg)
+![alt text](Screenshot_20251003-012259.jpg)
+![alt text](Screenshot_20251003-012302.jpg)
+![alt text](Screenshot_20251003-011922.jpg)
+![alt text](Screenshot_20251003-011920.jpg)
+![alt text](Screenshot_20251003-011928.jpg)
+![alt text](Screenshot_20251003-011933.jpg)
+![alt text](Screenshot_20251003-011937.jpg)
+![alt text](Screenshot_20251003-011940.jpg)
+
+
 Este proyecto contiene la implementación de 5 ejercicios básicos para aprender desarrollo en Android Studio usando Kotlin.
 
 ## Estructura del Proyecto
